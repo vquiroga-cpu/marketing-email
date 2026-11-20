@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plantillas de emails</title>
+  <style>
+    :root { --odoo: #2c4554; --ink: #212529; --muted: #6c757d; --line: #dee2e6; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f0eeee; color: var(--ink); font-family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif; font-size: 14px; line-height: 1.45; }
+    header { display: flex; align-items: center; height: 46px; padding: 0 16px; background: var(--odoo); color: #fff; }
+    header strong { font-size: 18px; font-weight: 500; }
+    main { max-width: 920px; margin: 0 auto; padding: 28px 16px 48px; }
+    h1 { margin: 0 0 8px; font-size: 26px; font-weight: 600; }
+    .lead { margin: 0 0 22px; max-width: 640px; color: var(--muted); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+    a.card { display: block; padding: 16px; background: #fff; border: 1px solid var(--line); border-radius: 8px; color: inherit; text-decoration: none; }
+    a.card:hover { border-color: var(--odoo); }
+    .swatch { height: 8px; border-radius: 99px; margin-bottom: 12px; }
+    .kicker { margin: 0 0 4px; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+    h2 { margin: 0 0 6px; font-size: 18px; }
+    p { margin: 0; }
+    .asunto { margin-top: 10px; color: var(--ink); }
+    .para { margin-top: 4px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <header><strong>Marketing emails</strong></header>
+  <main>
+    <h1>Plantillas de emails</h1>
+    <p class="lead">Una por cada plantilla de placa. El aviso va arriba y los datos del productor, abajo. Antes de enviar, completá los campos entre corchetes y cambiá el círculo Foto por la foto del productor. El nombre del cliente lo completa Odoo.</p>
+    <div class="grid">
+      <a class="card" href="oferta.html">
+        <div class="swatch" style="background:#19b4e0"></div>
+        <p class="kicker">Ofertas</p>
+        <h2>Oferta de auto</h2>
+        <p class="asunto">Asunto: Hay una oferta de auto, con fecha</p>
+        <p class="para">Promo con fecha límite. Feed.</p>
+      </a>
+      <a class="card" href="renovacion.html">
+        <div class="swatch" style="background:#e23b32"></div>
+        <p class="kicker">Renovación</p>
+        <h2>Renová tu auto</h2>
+        <p class="asunto">Asunto: Tu póliza de auto está por vencer</p>
+        <p class="para">La póliza está por vencer. Feed.</p>
+      </a>
+      <a class="card" href="una-sola-poliza.html">
+        <div class="swatch" style="background:#1c1c1c"></div>
+        <p class="kicker">Clientes con una sola póliza</p>
+        <h2>Sumá otra cobertura</h2>
+        <p class="asunto">Asunto: Tenés una sola póliza</p>
+        <p class="para">Ofrecer hogar a quien ya tiene auto. Historia.</p>
+      </a>
+      <a class="card" href="ex-clientes.html">
+        <div class="swatch" style="background:#7a4550"></div>
+        <p class="kicker">Ex clientes</p>
+        <h2>Volvé</h2>
+        <p class="asunto">Asunto: Hace tiempo que no hablamos</p>
+        <p class="para">Volver a escribirles. Historia.</p>
+      </a>
+      <a class="card" href="granizo.html">
+        <div class="swatch" style="background:#1c3344"></div>
+        <p class="kicker">Campañas por el clima</p>
+        <h2>Granizo</h2>
+        <p class="asunto">Asunto: Cuando hay granizo, revisemos el auto</p>
+        <p class="para">Mensaje del momento. Historia.</p>
+      </a>
+      <a class="card" href="referidos.html">
+        <div class="swatch" style="background:#2f62f6"></div>
+        <p class="kicker">Referidos</p>
+        <h2>Recomendame</h2>
+        <p class="asunto">Asunto: Si conocés a alguien, recomendame</p>
+        <p class="para">Que te recomienden. Historia.</p>
+      </a>
+      <a class="card" href="presentacion.html">
+        <div class="swatch" style="background:#2c4554"></div>
+        <p class="kicker">Presentación del productor</p>
+        <h2>Soy tu productor</h2>
+        <p class="asunto">Asunto: Soy tu productor en BQB</p>
+        <p class="para">Decir quién sos. Feed.</p>
+      </a>
+      <a class="card" href="nuevas-coberturas.html">
+        <div class="swatch" style="background:#19a463"></div>
+        <p class="kicker">Otras · Nuevas coberturas</p>
+        <h2>Coberturas para tu hogar</h2>
+        <p class="asunto">Asunto: Coberturas para revisar en tu hogar</p>
+        <p class="para">La placa de ejemplo de Otras.</p>
+      </a>
+    </div>
+  </main>
+</body>
+</html>

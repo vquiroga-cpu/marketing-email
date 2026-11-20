@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Si conocés a alguien, recomendame</title>
+</head>
+<!--
+  Plantilla de placa: Referidos
+  Asunto: Si conocés a alguien, recomendame
+  Preview: Que me escriba y lo atiendo yo.
+  Para quién: clientes actuales que pueden recomendar al productor.
+  Completar: [NOMBRE_PRODUCTOR] [TEL_PRODUCTOR] [MAIL_PRODUCTOR] [MATRICULA_SSN] [URL_FOTO_PRODUCTOR] [URL_WHATSAPP]
+-->
+<body style="margin:0;padding:0;background:#f0eeee;">
+  <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;">Que me escriba y lo atiendo yo.</div>
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f0eeee;">
+    <tr>
+      <td align="center" style="padding:24px 12px;">
+        <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="width:100%;max-width:600px;">
+          <tr>
+            <td style="background:#2f62f6;padding:32px;">
+              <p style="margin:0 0 18px;color:#ffffff;font-size:12px;letter-spacing:2px;font-family:Arial, Helvetica, sans-serif;">BQB</p>
+              <h1 style="margin:0 0 16px;color:#ffffff;font-size:36px;line-height:1;font-weight:800;font-family:Arial, Helvetica, sans-serif;">RECOMENDAME</h1>
+              <p style="margin:0;color:#ffffff;font-size:18px;line-height:1.45;font-family:Arial, Helvetica, sans-serif;">Si conocés a alguien que necesite un seguro, que me escriba.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="background:#ffffff;padding:28px 32px;">
+              <p style="margin:0 0 14px;color:#4a5568;font-size:16px;line-height:1.6;font-family:Arial, Helvetica, sans-serif;">Hola <strong>{{ object.name or 'Cliente' }}</strong>,</p>
+              <p style="margin:0 0 22px;color:#4a5568;font-size:16px;line-height:1.6;font-family:Arial, Helvetica, sans-serif;">Si hay alguien cerca tuyo que esté buscando un seguro, pasale mi contacto. Lo atiendo yo, igual que a vos.</p>
+              <a href="[URL_WHATSAPP]" style="display:inline-block;background:#2f62f6;color:#ffffff;padding:12px 22px;border-radius:6px;text-decoration:none;font-size:15px;font-weight:700;font-family:Arial, Helvetica, sans-serif;">Pasame el contacto</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="background:#f0f4f8;padding:24px 32px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td width="88" valign="top" style="padding-right:16px;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0"><tr><td width="72" height="72" align="center" valign="middle" style="width:72px;height:72px;background:#d9e2ec;border-radius:50%;color:#1a365d;font-size:12px;font-family:Arial, Helvetica, sans-serif;">Foto</td></tr></table>
+                  </td>
+                  <td valign="middle">
+                    <p style="margin:0 0 2px;color:#718096;font-size:11px;letter-spacing:1px;text-transform:uppercase;font-family:Arial, Helvetica, sans-serif;">Tu asesor/a de seguros</p>
+                    <p style="margin:0 0 4px;color:#1a365d;font-size:17px;font-weight:700;font-family:Arial, Helvetica, sans-serif;">[NOMBRE_PRODUCTOR]</p>
+                    <p style="margin:0 0 2px;color:#4a5568;font-size:13px;font-family:Arial, Helvetica, sans-serif;">Tel: [TEL_PRODUCTOR]</p>
+                    <p style="margin:0 0 2px;color:#4a5568;font-size:13px;font-family:Arial, Helvetica, sans-serif;">Mail: <a href="mailto:[MAIL_PRODUCTOR]" style="color:#0287C1;text-decoration:none;">[MAIL_PRODUCTOR]</a></p>
+                    <p style="margin:0;color:#718096;font-size:11px;font-family:Arial, Helvetica, sans-serif;">Mat. SSN: [MATRICULA_SSN]</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="background:#1a365d;padding:18px 32px;">
+              <p style="margin:0;color:#d6dee8;font-size:12px;line-height:1.5;font-family:Arial, Helvetica, sans-serif;">BQB. Mensaje informativo. Si no querés recibir estos avisos, respondé este mail.</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
